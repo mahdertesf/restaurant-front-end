@@ -6,6 +6,7 @@ import { IoCloseCircleOutline } from "react-icons/io5";
 import Navitems from "./Navitems";
 import { nav } from "../assets/index";
 
+
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 

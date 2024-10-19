@@ -10,6 +10,7 @@ import Reservations from "./pages/Reservations";
 import Footer from "./components/Footer";
 import ReserveTable from "./pages/ReserveTable"; 
 
+
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/reserve-table" element={<ReserveTable/>}/>
       </Routes>
       <Footer/>
+      
 
     </Router>
 

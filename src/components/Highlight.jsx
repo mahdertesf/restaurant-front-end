@@ -6,14 +6,14 @@ import { RiEBike2Line } from "react-icons/ri";
 
 function Highlight() {
   return (
-    <div className="mt-20 vsm:mt-32">
+    <div className="vsm:mt-48 mt-36">
       <div className="flex flex-col justify-around md:flex-row">
-        <h2 className="text-3xl md:text-5xl lg:text-7xl max-md:text-center">
+        <h2 className="text-3xl md:text-5xl lg:text-7xl max-md:text-center text-yellow-500 ">
           This Week's Specials!
         </h2>
         <div className="max-md:hidden flex items-center gap-2 bg-yellow-500 rounded-full px-3 lg:px-8 w-38 lg:w-48 max-md:w-24 hover:bg-red-400">
           <IoFastFoodOutline className="w-16 h-20 md:h-10" />
-          <Link to="/order-online">Online Menu</Link>
+          <Link to="/menu">Online Menu</Link>
         </div>
       </div>
 
@@ -22,8 +22,8 @@ function Highlight() {
           return (
             <div
               key={item.name}
-              className="w-full md:w-[30%] bg-slate-300 rounded-3xl 
-              shadow-2xl shadow-red-800 h-auto flex flex-col justify-between hover:bg-white"
+              className="w-[90%] md:w-[30%] bg-slate-300 rounded-3xl
+              shadow-2xl shadow-red-800 h-auto flex flex-col justify-between  hover:border-2 hover:border-yellow-400 hover:scale-105"
             >
               <img
                 src={item.image}

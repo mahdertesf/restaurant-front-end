@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Highlight from "../components/Highlight";
 import Testimonial from "../components/Testimonial";
 
+
 function Home() {
   return (
     <main>
@@ -14,6 +15,7 @@ function Home() {
       </section>
       <section>
         <Testimonial/>
+        
       </section>
 
     </main>
