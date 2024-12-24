@@ -17,7 +17,7 @@ function Nav() {
   return (
     <div className="relative z-10">
       <nav className="px-10 lg:px-48 p-5 fixed bg-white w-full h-22">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <button onClick={toggleMenu} className="md:hidden">
             {isOpen ? (
               <IoCloseCircleOutline className="w-[45px] h-[35px]" />

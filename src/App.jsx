@@ -8,7 +8,7 @@ import Menu from "./pages/Menu";
 import OrderOnline from "./pages/OrderOnline";
 import Reservations from "./pages/Reservations";
 import Footer from "./components/Footer";
-import ReserveTable from "./pages/ReserveTable"; 
+
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Route path="/menu" element={<Menu/>}/>
         <Route path="/order-online" element={<OrderOnline/>}/>
         <Route path="/reservations" element={<Reservations/>}/>
-        <Route path="/reserve-table" element={<ReserveTable/>}/>
+        
       </Routes>
       <Footer/>
       

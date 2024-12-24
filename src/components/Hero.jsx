@@ -18,7 +18,7 @@ function Hero() {
         <div className=' flex  items-center gap-2 bg-yellow-600 w-auto  
         rounded-full mt-3 lg:w-[30%] lg:h-22 lg:py-2 px-6 hover:bg-red-400'>
         <CiForkAndKnife className='w-10 h-10'/>
-        <Link to='reserve-table' className=''>Reserve a Table</Link>
+        <Link to='/order-online' className=''>Reserve a Table</Link>
         </div>
        
         </div>

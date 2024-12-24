@@ -2,6 +2,8 @@ import {React,useState} from "react";
 import { IoFastFoodOutline } from "react-icons/io5";
 
 function BookingForm({ className,date, setDate, time, setTime, guests, setGuests, occasion, setOccasion, availableTimes,dispatch}) {
+
+  
   
     
 
